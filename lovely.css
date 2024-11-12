@@ -1,0 +1,385 @@
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  font-family: "Dancing Script";
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./img/istockphoto-1191251531-612x612.jpg");
+  color: #b22222;
+  gap: 80px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.hero-button {
+  width: 20%;
+  padding: 20px 15px;
+  background-color: #b22222;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.hero-button:hover {
+  background-color: white;
+  color: #b22222;
+}
+.razones {
+  background-color: #f9c8c8;
+}
+.razones-div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 50px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.feature {
+  font-family: Roboto;
+}
+h2 {
+  font-family: "Dancing Script";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #b22222;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  column-gap: 6.66%;
+}
+.heart {
+  width: 40px;
+  height: 40px;
+}
+.single-card {
+  border: #b22222 1px solid;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 15px;
+}
+p {
+  font-family: "Roboto";
+  color: #b22222;
+  font-size: 18px;
+}
+.citas {
+  background-color: #f9c8c8;
+}
+.citas-div {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.single-date {
+  border-radius: 75px;
+  width: 12%;
+  height: 150px;
+}
+.single-date-2 {
+  border-radius: 75px;
+  width: 20%;
+  height: 150px;
+}
+.citas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.auxiliar-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+.cita {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+}
+.cita-aleatoria {
+  background-color: #f9c8c8;
+  display: flex;
+  justify-content: center;
+}
+.random-button {
+  width: 25%;
+  padding: 20px 15px;
+  background-color: #b22222;
+  color: white;
+  font-family: "Dancing Script";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.random-button:hover {
+  background-color: white;
+  color: #b22222;
+}
+.ni-idea {
+  background-color: #f9c8c8;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.auxiliar-video {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.red-heart {
+  height: 150px;
+  width: 150px;
+}
+.two-columns-l {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+h3 {
+  font-family: "Dancing Script";
+  font-size: 24px;
+  font-weight: 400;
+  color: #b22222;
+}
+.two-columns-r {
+  width: 50%;
+}
+.contact {
+  background-color: #f9c8c8;
+  padding-bottom: 50px;
+}
+.contact-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.instagram,
+.mail,
+.whatsapp {
+  height: 150px;
+}
+.socials {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Roboto;
+}
+.social-text {
+  font-size: 20px;
+}
+.disclaimer-section {
+  background-color: #f9c8c8;
+  padding-bottom: 20px;
+}
+.disclaimer {
+  text-align: center;
+  font-family: Roboto;
+}
+.central-text {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #b22222;
+  text-align: center;
+  margin-top: 20px;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  font-family: "Dancing Script";
+}
+@media (max-width: 768px) {
+  .contact-div {
+    flex-direction: column;
+  }
+  .instagram,
+  .mail,
+  .whatsapp {
+    height: 100%;
+  }
+  .hero-button {
+    width: 60%;
+  }
+  .razones-div {
+    align-items: center;
+  }
+  .random-button {
+    width: 60%;
+  }
+  .auxiliar-video {
+    flex-direction: column;
+  }
+  .two-columns-l {
+    width: 100%;
+  }
+  .two-columns-r {
+    width: 100%;
+    margin-top: 25px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+  .citas-container {
+    width: 90%;
+  }
+  .auxiliar-div {
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+  }
+  .cards-container {
+    grid-template-columns: repeat(1, 80%);
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 50px;
+    justify-content: center;
+  }
+  .cita {
+    width: 100px;
+    height: 100px;
+  }
+  .razones-div {
+    align-items: center;
+  }
+  .instagram,
+  .whatsapp {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+  }
+  .mail {
+    height: 100px;
+    width: 175px;
+    align-self: center;
+  }
+  iframe {
+    width: 100%;
+  }
+  .single-date {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-left: 25px;
+  }
+  .central-text {
+    margin-left: 25px;
+    text-align: center;
+  }
+}
