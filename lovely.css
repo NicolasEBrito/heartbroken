@@ -304,6 +304,10 @@ h3 {
   opacity: 0;
   font-family: "Dancing Script";
 }
+.animado {
+  opacity: 0; /* Invisible al inicio */
+  transform: translateX(-50px); /* Mover a la izquierda para animar entrada */
+}
 @media (max-width: 768px) {
   .contact-div {
     flex-direction: column;

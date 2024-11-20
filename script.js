@@ -23,3 +23,17 @@ button.addEventListener("click", () => {
   const randomCita = citas[randomIndex];
   alert(`Tengamos una cita en el ${randomCita}`);
 });
+// Registrar el plugin
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to(".animado", {
+  x: 0,
+  opacity: 1,
+  duration: 1.5,
+  scrollTrigger: {
+    trigger: ".ni-idea",
+    start: "top 10%",
+    end: "top 30%",
+    toggleActions: "play none none none",
+  },
+});
